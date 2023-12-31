@@ -1,0 +1,20 @@
+name: Grade Assignment 3
+
+on: workflow_dispatch
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  validateAssignment:
+    uses: CamBamClasses/ValidateAssignment/.github/workflows/ValidateAssignment.yml@padawan
+    with:
+      assignmentNum: 3
+      cleanRepoScore: 3
+      submitWithGithubScore: 0
+      scores: 8 8 8 8 8 3
+      type: files
+      withCmake: false
+      incompletePoints: 4
+      helpAmount: 4
