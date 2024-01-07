@@ -11,10 +11,9 @@ jobs:
     uses: CamBamClasses/ValidateAssignment/.github/workflows/ValidateAssignment.yml@padawan
     with:
       assignmentNum: 3
-      cleanRepoScore: 3
+      cleanRepoScore: 0
       submitWithGithubScore: 0
-      scores: 8 8 8 8 8 3
-      type: files
+      scores: 8 8 8 9 3 3 3 8
+      testType: files
       withCmake: false
-      incompletePoints: 4
-      helpAmount: 4
+      incompletePoints: 0
