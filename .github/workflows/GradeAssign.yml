@@ -8,7 +8,7 @@ defaults:
 
 jobs:
   validateAssignment:
-    uses: CamBamClasses/ValidateAssignment/.github/workflows/ValidateAssignment.yml@24.03
+    uses: CamBamClasses/ValidateAssignment/.github/workflows/ValidateAssignment.yml@24.04
     with:
       assignmentNum: 3
       cleanRepoScore: 0
